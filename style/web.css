@@ -130,3 +130,52 @@ main{
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 50px;
 }
+
+/* Our Users Say Section Styles
+=============================== */
+.our-user-container{
+
+}
+.our-user-container h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(37, 36, 50);
+    text-align: center;
+    margin-top: 137px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding-left: 25px;
+    border: 1px solid rgb(242, 237, 237);
+    width: 33%;
+}
+.star{
+    padding-top: 24px;
+    margin-bottom: -15px;
+}
+.card h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-bottom: 5px;
+}
+.card p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.avatar img{
+    border-radius: 50%;
+    height: 100%;
+}
