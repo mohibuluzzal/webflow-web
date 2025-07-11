@@ -65,3 +65,35 @@ header{
 .hero-sec button{
     margin-bottom: 150px;
 }
+
+/* Main Section Styles
+===================== */
+main{
+    background-color: #f5f8ff;
+}
+
+/* See it section styles
+===================== */
+.see-it-container{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+    
+}
+.text-container h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #252432;
+}
+.text-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #25243280;
+}
+.webflow-img img{
+    border-radius: 40px;
+    width: 280px;
+    
+}
