@@ -4,6 +4,9 @@
 
 /* Common Styles
 ================ */
+body{
+    background-color: #f5f8ff;
+}
 .inter{
     font-family: "Inter", sans-serif;
 }
@@ -24,6 +27,10 @@
    border: none;
    padding: 8px 20px 8px 20px;
 }
+.primary-btn:hover{
+   background-color: violet;
+   color: black;
+}
 /* Header Style
 =============== */
 header{
@@ -39,7 +46,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid;
 }
 .navigation h1{
     font-size: 24px;
@@ -50,7 +56,6 @@ header{
 /* Hero Section Styles
 =================== */
 .hero-sec{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,16 +71,9 @@ header{
     margin-bottom: 150px;
 }
 
-/* Main Section Styles
-===================== */
-main{
-    background-color: #f5f8ff;
-}
-
 /* See it section styles
 ===================== */
 .see-it-container{
-    border: 2px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -204,6 +202,7 @@ main{
 }
 .ready-img img{
     border-radius: 40px;
+    margin-bottom: 70px;
 }
 
 /* Let’s Get in Touch Section Styles
@@ -257,4 +256,36 @@ form{
 form button{
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+/* Footer Section Styles
+===================== */
+footer{
+    margin-bottom: 100px;
+}
+footer h2{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #8987A1;
+    text-align: center;
+    margin-top: -60px;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+
 }
